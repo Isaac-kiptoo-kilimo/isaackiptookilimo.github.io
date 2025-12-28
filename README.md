@@ -1,22 +1,16 @@
-# Welcome to your Lovable project
+# Isaac Kiptoo Kilimo - Portfolio
 
-## Project info
+## Project Info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+A professional portfolio website showcasing Isaac Kiptoo Kilimo's work, skills, and experience.
+
+**URL**: https://Isaac-kiptoo-kilimo.github.io/portfolio
 
 ## How can I edit this code?
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Clone this repo and push changes to deploy.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -24,10 +18,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/Isaac-kiptoo-kilimo/portfolio
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd portfolio
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -62,12 +56,14 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Run the deploy command to build and deploy to GitHub Pages:
 
-## Can I connect a custom domain to my Lovable project?
+```sh
+npm run deploy
+```
 
-Yes, you can!
+This will build the project and push it to the `gh-pages` branch.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Custom Domain
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+To connect a custom domain, refer to [GitHub Pages custom domain documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
